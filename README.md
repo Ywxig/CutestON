@@ -14,11 +14,12 @@ This sterilizer uses a system similar to programming languages. That is, the con
 
  Special constructs are used to indicate the opening and closing of a class or object. All the necessary structures are written below. A must for familiarization.
  
- `Line Privat/Public::<Name data>::<Data>`
+ | Name  | Sintaxsis |
+| ------------- | ------------- |
+| Line  | ` Privat/Public::<Name data>::<Data>`  |
+| Object  | ` Privat/Public::{ / }::<Name Obj>`  |
+| Class  | ` Privat/Public::[ / ]::<Name Class>`  |
  
- `Object Privat/Public::{ /}::<Name Obj>`
- 
- `Class Privat/Public::[ /]::<Name Class>`
  
  All constructions have an access modifier that prevents data from being received from an object, class, or line. Or for some objects they show that you need to hide data, the Print class does not show private data, but displays NONE instead. Private data can be used to store bot tokens.
  
