@@ -1,0 +1,5 @@
+﻿  Serlizeri.cpp
+  main.cpp
+  Создание кода...
+C:\Users\Dima\source\repos\Serlizeri\Serlizeri.cpp(59): warning C4715: Get_::GetObj: значение возвращается не при всех путях выполнения
+  Serlizeri.vcxproj -> C:\Users\Dima\source\repos\Serlizeri\x64\Debug\Serlizeri.exe
