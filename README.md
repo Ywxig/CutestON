@@ -6,11 +6,11 @@
  They can also be collected into classes as in JsON.
 This sterilizer uses a system similar to programming languages. That is, the content of the data can be represented as a collection of data in the form of classes and objects. But CuteON presents an approach of presenting data as a kind of ladder from top to bottom. Where:
 
->`*A line* is the lowest unit of data storage. That is, the line stores one variable in itself.`
+> ***A line*** is the lowest unit of data storage. That is, the line stores one variable in itself.
 >
->`*An object* is the second unit, it stores a group of lines, dining with one name of the object.`
+> ***An object*** is the second unit, it stores a group of lines, dining with one name of the object.
 >
->`*A class* is the highest unit of data storage and represents a group of objects. Dining in one class`
+> ***A class*** is the highest unit of data storage and represents a group of objects. Dining in one class
 
  Special constructs are used to indicate the opening and closing of a class or object. All the necessary structures are written below. A must for familiarization.
  
