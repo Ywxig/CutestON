@@ -1,5 +1,9 @@
-﻿  Serlizeri.cpp
+﻿  Helper.cpp
+C:\Users\Dima\source\repos\Serlizeri\Helper.cpp(30,23): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dima\source\repos\Serlizeri\Helper.cpp(34,28): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Dima\source\repos\Serlizeri\Helper.cpp(41,26): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   main.cpp
+  CuteON.cpp
   Создание кода...
-C:\Users\Dima\source\repos\Serlizeri\Serlizeri.cpp(59): warning C4715: Get_::GetObj: значение возвращается не при всех путях выполнения
+C:\Users\Dima\source\repos\Serlizeri\CuteON.cpp(98): warning C4715: Get_::Find: значение возвращается не при всех путях выполнения
   Serlizeri.vcxproj -> C:\Users\Dima\source\repos\Serlizeri\x64\Debug\Serlizeri.exe

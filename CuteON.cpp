@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 #include "Helper.h"
 #include <vector>
 #include <fstream>
@@ -153,6 +152,44 @@ public:
 
 class Creat_{};
 
-class Print_{};
+class Print_{
+
+public:
+	void PrintVectorString(vector<string> arr) {
+		for (int i = 0; i < arr.size(); i++) {
+			cout << arr[i];
+		}
+	}
+
+public:
+	void PrintVectorInt(vector<int> arr) {
+		for (int i = 0; i < arr.size(); i++) {
+			cout << arr[i];
+		}
+	}
+
+};
+
+class Convect_ {
+public:
+	int ToInt(string content) {
+		if (content != "") {
+			return stoi(content);
+		}
+		else {
+			return 0;
+		}
+	}
+
+public:
+	vector<int> ToIntVector(vector<string> content) {
+		vector<int> ReturnNum = {}; // массив с финальными числами
+		for (int i = 0; i < content.size(); i++) {
+			ReturnNum.push_back(stoi(content[i]));
+		}
+		return ReturnNum;
+	}
+
+};
 
 

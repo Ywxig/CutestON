@@ -141,7 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Helper.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Serlizeri.cpp" />
+    <ClCompile Include="CuteON.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="test.sws" />
