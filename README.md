@@ -1,10 +1,10 @@
 # CutestON
- CuteON is a versatile sterilizer for use in a variety of projects. The main priority is to create the most versatile sterilizer that can be used both in regular programs and in special libraries for python. This sterilizer can be used as a data storage and recording system.
+ CuteON is a versatile serilizer for use in a variety of projects. The main priority is to create the most versatile serilizer that can be used both in regular programs and in special libraries for python. This sterilizer can be used as a data storage and recording system.
  
  This library has the ability to both read and write data to a file. 
  
  They can also be collected into classes as in JsON.
-This sterilizer uses a system similar to programming languages. That is, the content of the data can be represented as a collection of data in the form of classes and objects. But CuteON presents an approach of presenting data as a kind of ladder from top to bottom. Where:
+This serilizer uses a system similar to programming languages. That is, the content of the data can be represented as a collection of data in the form of classes and objects. But CuteON presents an approach of presenting data as a kind of ladder from top to bottom. Where:
 
  ***A line*** is the lowest unit of data storage. That is, the line stores one variable in itself.
 
