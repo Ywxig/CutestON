@@ -5,11 +5,9 @@ class Get_:
         content = file.read()
         content_l = content.split("\n")
 
-        return_ = []
         arr = []
 
         for i in content_l:
-            arr = []
             text = i.split("::")
             if text[0] == "public":
                 arr.append(text[2])
@@ -17,11 +15,7 @@ class Get_:
                 pass
             else:
                 pass
-            return_.append(arr)
-
-
-        return return_
-
+        return arr
 
     def getLine(file, nameString):
         file = file = open(file, "r", encoding="utf-8")
@@ -36,14 +30,12 @@ class Get_:
                 pass
 
     def getObj(file, nameObj):
-        file = open(file, "r")
-        content = file = open(file, "r", encoding="utf-8")
-        content_l = content.split("\n")
-        for i in content_l:
-            if i == "public::"+nameObj+"::{":
-                text = content_l[i].split("::{")
-                t = text[1].split("}")
-                return t[0]
+        file = open(file, "r", encoding="utf-8")
+        content = file.read()
+        content_l = content.split("public::"+nameObj+"::{")
+        fin = content_l[1].split("}")
+        return fin[0]
+
 
     def getClass(file, nameClass):
         file = open(file, "r")
@@ -55,10 +47,18 @@ class Get_:
                 t = text[1].split("]")
                 return t[0]
 
+    def getLineText(content, nameString):
+        content_l = content.split("\n")
+        for i in content_l:
+            text = i.split("::")
+            if text[0] == "public" and text[1] == str(nameString):
+                return text[2]
+            else:
+                pass 
 
 class Read_:
     def Read(file):
-        file = open(file, "r")
+        file = open(file, "r", encoding="utf-8")
         text = file.read()
         return text
 
